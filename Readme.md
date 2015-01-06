@@ -7,4 +7,4 @@ It's a very basic programming program in order to test and improve my skills.
 Thanks for reading!.
 Jorge.
 
-<a href="colorcrush.cpp">See code ></a>
+<a href="ColorCrush.cpp">See code ></a>
