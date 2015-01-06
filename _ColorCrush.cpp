@@ -4,10 +4,10 @@
 	( ______)    | |                                     | |
 	| |      ___ | | ___   ____     ____  ____ _   _  ___| |__
 	| |     / _ \| |/ _ \ / ___)   / ___)/ ___) | | |/___)  _ \
-    | |____| |_| | | |_| | |      ( (___| |   | |_| |___ | | | |
+        | |____| |_| | | |_| | |      ( (___| |   | |_| |___ | | | |
  	 \______)___/ \_)___/|_|       \____)_|   |____/(___/|_| |_|
 
-	Jorge García Ferreiro
+	Jorge GarcÃ­a Ferreiro
 	English Group - UCM
 */
 
@@ -786,7 +786,7 @@ void proccessBoard(tGame &game) {
 	}
 
 	/***************************************/
-	/******  COMPROBACIÓN HORIZONTAL  ******/
+	/******  COMPROBACIÃ“N HORIZONTAL  ******/
 	/***************************************/
 
 	for (int row = DIM - 1; row >= 0; row--) {
@@ -824,7 +824,7 @@ void proccessBoard(tGame &game) {
 	}
 	 
 	/***************************************/
-	/*******  COMPROBACIÓN VERTICAL  *******/
+	/*******  COMPROBACIÃ“N VERTICAL  *******/
 	/***************************************/
 
 	for (int colum = DIM - 1; colum >= 0; colum--) {
