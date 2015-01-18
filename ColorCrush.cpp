@@ -113,9 +113,9 @@ int main() {
 		switch (option) {
 
 		case 1: {
-					points = 0;
-					won = false;
-					game(points, won);
+			points = 0;
+			won = false;
+			game(points, won);
 		}	break;
 		}
 		option = menu();
@@ -147,7 +147,6 @@ int menu() {
 	setColor(white);
 
 	do {
-
 		cout << "Choose an option: ";
 		cin >> option; 
  
@@ -258,7 +257,6 @@ void initialBoard(tGame &game) {
 	proccessBoard(game);
 
 	do {
-
 		// Show the first game table with no tiles 
 
 		valid = false;
@@ -298,7 +296,6 @@ void readMovement(bool &finish, tMove &move) {
 		finish = true;
 	}
 	else {
-
 		cin >> move.colum;
 		cin >> character;
 
